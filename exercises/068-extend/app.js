@@ -8,5 +8,9 @@ var obj2 = {
 };
 
 function extend(obj1, obj2) {
-    // your code here
+    for (key in obj2) {
+        if (!(key in obj1)) {
+            obj1[key] = obj2[key]
+        }
+    }
 }

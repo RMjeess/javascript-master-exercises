@@ -1,3 +1,9 @@
 function isPersonOldEnoughToDrive(person) {
-  // tu codigo aqui
+  return (person.age >= 16);
 }
+
+var obj = {
+  age: 16
+};
+var output = isPersonOldEnoughToDrive(obj);
+console.log(output);
