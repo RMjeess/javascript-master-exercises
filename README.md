@@ -1,7 +1,7 @@
 # Javascript Master :sparkles:
-> 160 exercises about Javascript.
+> 160 exercises.
 
-This is part of a series of auto-graded exercises to practice Javascript. Credit goes to <a href="https://github.com/4GeeksAcademy">4Geeks Academy</a>. I will link the original repos in the correct order below. The difficulty of the exercises increases progressively, so it is recommended that they're solved in this order.
+This is part of a series of auto-graded exercises to practice Javascript. Credit goes to <a href="https://github.com/4GeeksAcademy">4Geeks Academy</a>. These are the solved exercises. I will continue to come back and try them out again. You can find the links to the original repos in the correct order below. The difficulty of the exercises increases progressively, so it is recommended that they're solved in this order. Check out their beginner-friendly docu for more details!
 
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial">Beginner</a></li>
@@ -12,35 +12,3 @@ This is part of a series of auto-graded exercises to practice Javascript. Credit
   <li><a href="https://github.com/4GeeksAcademy/javascript-events-tutorial-exercises">Events</a></li>
   <li><a href="https://github.com/4GeeksAcademy/react-tutorial-exercises">React</a></li>
 </ol>
-
-## One click installation:
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/javascript-beginner-exercises-tutorial.git)
-
-
-## Local Installation
-
-1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 12+:
-
-```
-$ npm i learnpack -g
-$ learnpack plugins:install learnpack-node
-```
-
-2. Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
-
-```sh
-$ npm i jest@24.8.0 -g
-$ learnpack start
-```
-
-Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
-
-## How are the exercises organized?
-
-Each exercise is a small react application containing the following files:
-|    |    |
-|:---|:---|
-| **app.js** | Represents the entry python file that will be executed by the computer |
-| **README.md** | Contains exercise instructions |
-| **test.js** | Contains the testing script for the exercise (you don't have to open this file) |
